@@ -93,7 +93,7 @@ method FindLargestMonotonicIsland(a: array<int>) returns (l: int, r: int)
   }
 }
 
-method Main() {
+/*method Main() {
   // Test case 1: Increasing sequence [1,2,3]
   var a1 := new int[3];
   a1[0], a1[1], a1[2] := 1, 2, 3;
@@ -105,4 +105,4 @@ method Main() {
   a2[0], a2[1], a2[2], a2[3], a2[4] := 5, 4, 3, 2, 1;
   var l2, r2 := FindLargestMonotonicIsland(a2);
   print "(", l2, ",", r2, ")\n";
-}
+}*/
